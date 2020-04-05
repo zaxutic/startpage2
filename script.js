@@ -1,8 +1,8 @@
-var span = document.getElementById('time');
+var timeElem = document.getElementById('time');
 
 function time() {
   var d = new Date();
-  span.textContent = d.toLocaleTimeString('en-GB');
+  timeElem.textContent = d.toLocaleTimeString('en-GB');
 }
 
 time();
