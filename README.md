@@ -11,7 +11,7 @@ Differences in fork to original:
 - Centred content
 - Reduced massive margin under time
 - Removed "Hello!" title
-- Changed font to Lato
+- Changed font to Lato (relies on it being installed on the system)
 - Fixed inconsistent indentation in code
 - Made code cleaner in general
 - Made input shrink on smaller windows
