@@ -1,7 +1,7 @@
-var timeElem = document.getElementById('time');
+const timeElem = document.getElementById('time');
 
 function time() {
-  var d = new Date();
+  const d = new Date();
   timeElem.textContent = d.toLocaleTimeString('en-GB');
 }
 
